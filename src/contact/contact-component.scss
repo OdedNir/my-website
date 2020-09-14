@@ -1,0 +1,49 @@
+.contact-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  color: white;
+
+  .header {
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 2px solid #025e9b;
+    padding-bottom: 4px;
+    margin-bottom: 32px;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #203a4b;
+    padding: 32px 160px;
+    // width: fit-content;
+    margin: 16px;
+    line-height: 32px;
+
+    .contact-item {
+      display: flex;
+      margin-bottom: 8px;
+      .icon {
+        margin-right: 16px;
+      }
+    }
+
+    .link {
+      color: white;
+    }
+
+    .resume-button {
+      background-color: #162835;
+      padding: 8px 24px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
