@@ -8,3 +8,7 @@ body {
 * {
   font-family: "Prata", serif;
 }
+
+.icon:hover {
+  fill: red;
+}
