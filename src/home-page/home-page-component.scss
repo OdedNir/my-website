@@ -10,26 +10,30 @@
     height: 64px;
     margin-bottom: 32px;
     z-index: 3;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      height: 128px;
+    }
   }
 
   .header-component-wrapper {
-    width: 80%;
-    height: fit-content;
     margin: 112px 0 32px;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      margin-top: 200px;
+    }
   }
 
   #about-component-wrapper {
-    width: 60%;
     margin: 64px;
   }
 
   #projects-component-wrapper {
-    width: 50%;
     margin: 64px;
   }
 
   #contact-component-wrapper {
-    width: 40%;
+    width: 100%;
     margin: 64px;
   }
 }

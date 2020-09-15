@@ -2,12 +2,7 @@ import React from "react";
 
 import "./menu-component.scss";
 
-// const scrollToRef = (ref) => {
-//   window.scrollTo(0, ref.current.offsetTop);
-// };
-
-export default (props) => {
-  // const { aboutRef, projectsRef, contactRef } = props.refs;
+export default () => {
   return (
     <div className="menu-component">
       <div

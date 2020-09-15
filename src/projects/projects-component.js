@@ -1,11 +1,11 @@
 import React from "react";
 
 import "./projects-component.scss";
-import GitHubIcon from "../media/GitHub-Mark-64px.png";
+import githubIcon from "../media/github.svg";
 
 const projects = [
   {
-    name: "Chat App",
+    name: "Chat",
     technologies: ["Node.js", "React", "Express.js", "MongoDB"],
     description:
       "Fast real-time messaging app with multiple rooms and users. No authentication needed! Just enter with user name and room name.",
@@ -16,6 +16,12 @@ const projects = [
     technologies: ["Vanilla JavaScript", "CSS", "HTML"],
     description: "The classic snake game using Vanilla JavaScript.",
     link: "https://github.com/OdedNir/Snake",
+  },
+  {
+    name: "Calculator",
+    technologies: ["Vanilla JavaScript", "CSS", "HTML"],
+    description: "Apple Calculator Mockup",
+    link: "https://github.com/OdedNir/Calculator",
   },
 ];
 
@@ -32,7 +38,7 @@ const renderProjects = () => {
         })}
       </div>
       <a className="git-link" href={project.link} target="_blank">
-        <img src={GitHubIcon} alt="github-icon" width="30" height="30" />
+        <img className="icon" src={githubIcon} alt="github-icon" />
       </a>
     </div>
   ));

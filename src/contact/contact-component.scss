@@ -13,33 +13,66 @@
     border-bottom: 2px solid #025e9b;
     padding-bottom: 4px;
     margin-bottom: 32px;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      font-size: 56px;
+    }
   }
 
   .contact-container {
+    width: 50%;
+    min-width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #203a4b;
-    padding: 32px 160px;
-    // width: fit-content;
+    padding: 32px 0px;
     margin: 16px;
     line-height: 32px;
 
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      font-size: 32px;
+      width: 100%;
+    }
+
     .contact-item {
+      font-family: "Helvetica Neue", Arial, sans-serif;
       display: flex;
+      align-items: center;
+      width: max-content;
       margin-bottom: 8px;
+      color: #d4d4d4;
+
+      @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+        margin-bottom: 32px;
+      }
+
       .icon {
+        width: 25px;
+        height: 25px;
         margin-right: 16px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+          width: 50px;
+          height: 50px;
+        }
       }
     }
 
     .link {
-      color: white;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #d4d4d4;
+      text-decoration: none;
     }
 
     .resume-button {
       background-color: #162835;
       padding: 8px 24px;
+      align-self: center;
+
+      @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+        padding: 24px 48px;
+      }
 
       &:hover {
         cursor: pointer;

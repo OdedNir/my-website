@@ -18,8 +18,6 @@ const AboutComponent = () => {
           className="profile-img"
           src={profilePicture}
           alt="profile-picture"
-          width="256"
-          height="316"
         />
       </div>
     </div>

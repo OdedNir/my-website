@@ -10,20 +10,32 @@
     font-weight: 500;
     border-bottom: 2px solid #025e9b;
     padding-bottom: 4px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      font-size: 56px;
+    }
   }
 
   .projects-container {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
     color: white;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    }
+
+    @media (max-width: 880px) {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 
     .project {
       display: flex;
       flex-direction: column;
-      // align-items: center;
+      align-items: center;
       background-color: #203a4b;
       padding: 32px;
       transition: box-shadow 0.3s;
@@ -40,6 +52,10 @@
         margin-bottom: 24px;
         border-bottom: 1px solid rgb(190, 190, 190);
         text-align: center;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+          font-size: 40px;
+        }
       }
 
       .description {
@@ -47,6 +63,12 @@
         padding-bottom: 24px;
         line-height: 24px;
         color: rgb(212, 212, 212);
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+          font-size: 32px;
+          line-height: normal;
+          padding: 0 40px 40px;
+        }
       }
 
       .technologies-container {
@@ -56,18 +78,36 @@
         flex-wrap: wrap;
         color: rgb(190, 190, 190);
         flex-grow: 0;
-        line-height: 24px;
         padding-bottom: 16px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+          justify-content: center;
+        }
 
         .technology {
           font-size: smaller;
           padding-right: 16px;
+
+          @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+            font-size: 24px;
+          }
         }
       }
 
       .git-link {
         align-self: center;
         border-radius: 50%;
+        margin-top: 16px;
+
+        .icon {
+          width: 30px;
+          height: 30px;
+
+          @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+            width: 60px;
+            height: 60px;
+          }
+        }
       }
     }
   }
