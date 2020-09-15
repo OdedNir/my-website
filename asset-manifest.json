@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.57c54d89.chunk.css",
+    "main.css": "/my-website/static/css/main.67a3c2dd.chunk.css",
     "main.js": "/my-website/static/js/main.270782d7.chunk.js",
     "main.js.map": "/my-website/static/js/main.270782d7.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
@@ -8,9 +8,9 @@
     "static/js/2.ae648cbb.chunk.js": "/my-website/static/js/2.ae648cbb.chunk.js",
     "static/js/2.ae648cbb.chunk.js.map": "/my-website/static/js/2.ae648cbb.chunk.js.map",
     "index.html": "/my-website/index.html",
-    "precache-manifest.f9c7d1926f3facf5dad6b6b18495f8cc.js": "/my-website/precache-manifest.f9c7d1926f3facf5dad6b6b18495f8cc.js",
+    "precache-manifest.bcb7c44e360f4481c84bbb48d49c3ac5.js": "/my-website/precache-manifest.bcb7c44e360f4481c84bbb48d49c3ac5.js",
     "service-worker.js": "/my-website/service-worker.js",
-    "static/css/main.57c54d89.chunk.css.map": "/my-website/static/css/main.57c54d89.chunk.css.map",
+    "static/css/main.67a3c2dd.chunk.css.map": "/my-website/static/css/main.67a3c2dd.chunk.css.map",
     "static/js/2.ae648cbb.chunk.js.LICENSE.txt": "/my-website/static/js/2.ae648cbb.chunk.js.LICENSE.txt",
     "static/media/Oded Nir - Resume.pdf": "/my-website/static/media/Oded Nir - Resume.f88ddb6a.pdf",
     "static/media/email.svg": "/my-website/static/media/email.8508ab10.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.0cbcd75a.js",
     "static/js/2.ae648cbb.chunk.js",
-    "static/css/main.57c54d89.chunk.css",
+    "static/css/main.67a3c2dd.chunk.css",
     "static/js/main.270782d7.chunk.js"
   ]
 }
