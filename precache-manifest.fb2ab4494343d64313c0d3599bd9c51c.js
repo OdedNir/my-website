@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc13aba644dd6472e6a7ab8f77e73e56",
+    "revision": "52294df0eae4e92b447d532298040cf8",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "2e377e73c7d54e4eee8f",
+    "revision": "c46f9e5f4d6c12575ce5",
     "url": "/my-website/static/css/main.7af0c338.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/js/2.ae648cbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e377e73c7d54e4eee8f",
-    "url": "/my-website/static/js/main.3d30d746.chunk.js"
+    "revision": "c46f9e5f4d6c12575ce5",
+    "url": "/my-website/static/js/main.923e8cc2.chunk.js"
   },
   {
     "revision": "8a31e1a8153659a682c8",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f88ddb6a4d97e62bbc7e51b0788c98f8",
     "url": "/my-website/static/media/Oded Nir - Resume.f88ddb6a.pdf"
+  },
+  {
+    "revision": "428014fe7b52e9ec598ffa9aee3e17e3",
+    "url": "/my-website/static/media/email-rounded.428014fe.png"
   },
   {
     "revision": "aea0ca06abe6895995257cae536e972d",
