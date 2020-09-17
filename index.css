@@ -6,6 +6,10 @@ body {
   background-color: #131313;
 }
 
+#root {
+  width: 100%;
+}
+
 * {
   /* font-family: "Prata", serif; */
   font-family: "Raleway", sans-serif;
