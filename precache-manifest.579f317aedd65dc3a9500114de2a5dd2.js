@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7166b4fa28e67c02db90988db84caf14",
+    "revision": "7aeeee1335cb66d7e7f07fcbf1068825",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "0d2e1096d91042c504d0",
-    "url": "/my-website/static/css/main.9d406598.chunk.css"
+    "revision": "fe390aa63119fbc3c134",
+    "url": "/my-website/static/css/main.5b458ef4.chunk.css"
   },
   {
     "revision": "d497f2215be627c9b6ab",
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/js/2.e7ac813f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d2e1096d91042c504d0",
-    "url": "/my-website/static/js/main.446bda0f.chunk.js"
+    "revision": "fe390aa63119fbc3c134",
+    "url": "/my-website/static/js/main.c12cc8d7.chunk.js"
   },
   {
     "revision": "8a31e1a8153659a682c8",
     "url": "/my-website/static/js/runtime-main.0cbcd75a.js"
   },
   {
-    "revision": "bfc9a015f26713ff5554dd96f131bc2f",
-    "url": "/my-website/static/media/LogoMakr_6Ku2CH.bfc9a015.png"
-  },
-  {
     "revision": "f88ddb6a4d97e62bbc7e51b0788c98f8",
     "url": "/my-website/static/media/Oded Nir - Resume.f88ddb6a.pdf"
+  },
+  {
+    "revision": "1b3c1989c4554903ef48d2c22256b250",
+    "url": "/my-website/static/media/cover.1b3c1989.png"
   },
   {
     "revision": "8508ab106e156396eb1b0c2c3b400554",
