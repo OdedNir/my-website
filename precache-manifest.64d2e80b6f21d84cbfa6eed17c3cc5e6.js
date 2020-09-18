@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2049840785a46f65b87ebd8c1a7abfe",
+    "revision": "f2edab988e001119801bd143599b1c39",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "51f7b9dac50ce73f541d",
+    "revision": "f155dcd4aacc99541e19",
     "url": "/my-website/static/css/main.1857174b.chunk.css"
   },
   {
-    "revision": "df55136a735c4f83de6e",
-    "url": "/my-website/static/js/2.b552713e.chunk.js"
+    "revision": "376e62ac9f776c3769ce",
+    "url": "/my-website/static/js/2.18058acf.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/my-website/static/js/2.b552713e.chunk.js.LICENSE.txt"
+    "url": "/my-website/static/js/2.18058acf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51f7b9dac50ce73f541d",
-    "url": "/my-website/static/js/main.06129956.chunk.js"
+    "revision": "f155dcd4aacc99541e19",
+    "url": "/my-website/static/js/main.18995946.chunk.js"
   },
   {
     "revision": "8a31e1a8153659a682c8",
@@ -28,8 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/media/Oded Nir - Resume.f88ddb6a.pdf"
   },
   {
-    "revision": "ee290b632c7c106d2cadb0f07e473447",
-    "url": "/my-website/static/media/cover.ee290b63.png"
+    "revision": "0d7cf1f4d083392d7be42cd4f55eb026",
+    "url": "/my-website/static/media/cover.0d7cf1f4.png"
+  },
+  {
+    "revision": "1b3c1989c4554903ef48d2c22256b250",
+    "url": "/my-website/static/media/cover.1b3c1989.png"
   },
   {
     "revision": "8508ab106e156396eb1b0c2c3b400554",
