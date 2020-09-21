@@ -17,15 +17,13 @@
   }
 
   .header-component-wrapper {
-    margin: 112px 0 32px;
-
-    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-      margin-top: 200px;
-    }
+    margin-top: 20%;
+    margin-bottom: 10%;
   }
 
   #about-component-wrapper {
-    margin: 64px;
+    width: calc(min(100%, 800px));
+    margin: 64px 80px;
   }
 
   #projects-component-wrapper {

@@ -1,16 +1,27 @@
+@import "../colors.scss";
+@mixin link-mixin {
+  color: $light-grey-text;
+  transition: color 0.1s ease-in;
+  text-decoration: none;
+
+  &:hover {
+    color: #4bfeff;
+  }
+}
+
 .contact-component {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: fit-content;
-  color: white;
+  color: $white;
 
   .header {
     width: fit-content;
     font-size: 24px;
     font-weight: 500;
-    border-bottom: 2px solid #025e9b;
+    border-bottom: 2px solid $blue-border;
     padding-bottom: 4px;
     margin-bottom: 32px;
 
@@ -25,9 +36,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #203a4b;
-    padding: 32px 0px;
-    margin: 16px;
+    background-color: $blue-background;
+    padding: 32px;
+    margin: 16px 16px 80px;
     line-height: 32px;
 
     @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -36,12 +47,11 @@
     }
 
     .contact-item {
-      font-family: "Helvetica Neue", Arial, sans-serif;
       display: flex;
       align-items: center;
       width: max-content;
       margin-bottom: 8px;
-      color: #d4d4d4;
+      color: $light-grey-text;
 
       @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
         margin-bottom: 32px;
@@ -60,13 +70,11 @@
     }
 
     .link {
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      color: #d4d4d4;
-      text-decoration: none;
+      @include link-mixin;
     }
 
     .resume-button {
-      background-color: #162835;
+      background-color: $black-dark;
       padding: 8px 24px;
       align-self: center;
 
@@ -78,5 +86,9 @@
         cursor: pointer;
       }
     }
+  }
+
+  .link {
+    @include link-mixin;
   }
 }

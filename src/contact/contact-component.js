@@ -34,6 +34,9 @@ const contactComponent = () => {
           </a>
         </div>
       </div>
+      <a className="link" href="https://github.com/OdedNir/my-website">
+        This website was created by Oded Nir
+      </a>
     </div>
   );
 };

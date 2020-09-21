@@ -9,10 +9,12 @@ const AboutComponent = () => {
       <div className="header">About Me</div>
       <div className="p-image-container">
         <div className="about-text">
-          I'm a second year student at the Afeka College of Engineering. Highly
-          motivated, a quick learner and passionate to master new technologies.
-          Successful working in both team and self-directed settings,
-          self-driven.
+          I'm a third year student at the Afeka College of Engineering starting
+          my specialization in Artificial Intelligence.
+          <br />
+          I enjoy building websites using React.js, SCSS and HTML.
+          <br />
+          I'm Highly motivated and passionate to master new technologies.
         </div>
         <img
           className="profile-img"

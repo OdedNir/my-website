@@ -1,8 +1,9 @@
+@import "../colors.scss";
+
 @mixin clickable {
-  font-family: "Prata", serif;
   padding-bottom: 5px;
   position: relative;
-  color: #ffffff;
+  color: $white;
 
   &::before {
     content: "";
@@ -10,7 +11,7 @@
     width: 100%;
     height: 2px;
     bottom: 0;
-    background-color: #025e9b;
+    background-color: $blue-border;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -20,7 +21,7 @@
     cursor: pointer;
 
     &::before {
-      color: #025e9b;
+      color: $blue-border;
       visibility: visible;
       transform: scaleX(1);
     }
@@ -33,13 +34,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #192d3a;
+  background-color: $black-dark;
   font-size: 16px;
-  box-shadow: 0 1px 20px 0 #0d212c;
+  box-shadow: 0 1px 20px 0 $dark-shade;
   overflow: hidden;
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
     font-size: 40px;
+  }
+
+  .logo {
+    height: 72px;
+    position: fixed;
+    left: 24px;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+      visibility: hidden;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .about-button {

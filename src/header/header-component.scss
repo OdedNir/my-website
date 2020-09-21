@@ -1,31 +1,13 @@
+@import "../colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
 .header-component {
   text-align: center;
-  color: #dddddd;
+  color: $white;
 
   .name-title {
-    background-image: -webkit-radial-gradient(
-      rgb(255, 255, 255),
-      rgb(105, 105, 105)
-    );
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    font-size: 80px;
-    font-weight: bold;
-
-    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-      font-size: 144px;
-    }
-  }
-
-  .degree-title {
-    margin-top: 32px;
-    font-size: 32px;
-    color: #999999;
-    font-weight: bold;
-    padding: 0 40px;
-
-    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-      font-size: 72px;
-    }
+    font-family: "Comfortaa", cursive;
+    font-size: 15vw;
+    color: $blue-border;
   }
 }

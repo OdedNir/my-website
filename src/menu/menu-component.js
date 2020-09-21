@@ -1,10 +1,17 @@
 import React from "react";
 
 import "./menu-component.scss";
+import logo from "./profile.png";
 
 export default () => {
   return (
     <div className="menu-component">
+      <img
+        className="logo"
+        src={logo}
+        alt="name-logo"
+        onClick={() => (window.location.href = window.location.href)}
+      />
       <div
         className="about-button"
         onClick={() => {
