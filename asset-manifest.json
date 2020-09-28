@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.36105496.chunk.css",
-    "main.js": "/my-website/static/js/main.b8c2db1e.chunk.js",
-    "main.js.map": "/my-website/static/js/main.b8c2db1e.chunk.js.map",
-    "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
-    "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
-    "static/js/2.e7ac813f.chunk.js": "/my-website/static/js/2.e7ac813f.chunk.js",
-    "static/js/2.e7ac813f.chunk.js.map": "/my-website/static/js/2.e7ac813f.chunk.js.map",
-    "index.html": "/my-website/index.html",
-    "precache-manifest.1da3d801b7d3aa96c0b1380d0bcebc1d.js": "/my-website/precache-manifest.1da3d801b7d3aa96c0b1380d0bcebc1d.js",
-    "service-worker.js": "/my-website/service-worker.js",
-    "static/css/main.36105496.chunk.css.map": "/my-website/static/css/main.36105496.chunk.css.map",
-    "static/js/2.e7ac813f.chunk.js.LICENSE.txt": "/my-website/static/js/2.e7ac813f.chunk.js.LICENSE.txt",
-    "static/media/Oded Nir - Resume.pdf": "/my-website/static/media/Oded Nir - Resume.f88ddb6a.pdf",
-    "static/media/email.svg": "/my-website/static/media/email.8508ab10.svg",
-    "static/media/github.svg": "/my-website/static/media/github.617870e4.svg",
-    "static/media/linkedin.svg": "/my-website/static/media/linkedin.619231ff.svg",
-    "static/media/profile-picture.jpg": "/my-website/static/media/profile-picture.aea0ca06.jpg",
-    "static/media/profile.png": "/my-website/static/media/profile.4aa57043.png"
+    "main.css": "./static/css/main.36105496.chunk.css",
+    "main.js": "./static/js/main.e19e45e6.chunk.js",
+    "main.js.map": "./static/js/main.e19e45e6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b9c32cb2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b9c32cb2.js.map",
+    "static/js/2.e7ac813f.chunk.js": "./static/js/2.e7ac813f.chunk.js",
+    "static/js/2.e7ac813f.chunk.js.map": "./static/js/2.e7ac813f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.4f732bbcc22d49d2cfb4efef6e926718.js": "./precache-manifest.4f732bbcc22d49d2cfb4efef6e926718.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.36105496.chunk.css.map": "./static/css/main.36105496.chunk.css.map",
+    "static/js/2.e7ac813f.chunk.js.LICENSE.txt": "./static/js/2.e7ac813f.chunk.js.LICENSE.txt",
+    "static/media/Oded Nir - Resume.pdf": "./static/media/Oded Nir - Resume.f88ddb6a.pdf",
+    "static/media/email.svg": "./static/media/email.8508ab10.svg",
+    "static/media/github.svg": "./static/media/github.617870e4.svg",
+    "static/media/linkedin.svg": "./static/media/linkedin.619231ff.svg",
+    "static/media/profile-picture.jpg": "./static/media/profile-picture.aea0ca06.jpg",
+    "static/media/profile.png": "./static/media/profile.4aa57043.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cbcd75a.js",
+    "static/js/runtime-main.b9c32cb2.js",
     "static/js/2.e7ac813f.chunk.js",
     "static/css/main.36105496.chunk.css",
-    "static/js/main.b8c2db1e.chunk.js"
+    "static/js/main.e19e45e6.chunk.js"
   ]
 }
