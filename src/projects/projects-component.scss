@@ -42,6 +42,7 @@
       background-color: $blue-background;
       padding: 32px;
       transition: transform 0.2s ease-in-out;
+      border-radius: 8px;
 
       &:hover {
         transform: scale(1.03);

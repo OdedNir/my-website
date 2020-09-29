@@ -37,7 +37,7 @@ const renderProjects = () => {
           return <div className="technology">{tech}</div>;
         })}
       </div>
-      <a className="git-link" href={project.link} target="_blank">
+      <a className="git-link" href={project.link}>
         <img className="icon" src={githubIcon} alt="github-icon" />
       </a>
     </div>

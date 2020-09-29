@@ -16,11 +16,7 @@ const AboutComponent = () => {
           <br />
           I'm Highly motivated and passionate to master new technologies.
         </div>
-        <img
-          className="profile-img"
-          src={profilePicture}
-          alt="profile-picture"
-        />
+        <img className="profile-img" src={profilePicture} alt="profile" />
       </div>
     </div>
   );
