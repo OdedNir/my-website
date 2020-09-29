@@ -11,5 +11,5 @@
 ###
 
 <div align="center">
-
+  <img alt="screen-shot" src="./public/media/screen-shot.png" width="768" height="432" />
 </div>
