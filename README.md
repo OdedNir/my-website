@@ -7,6 +7,9 @@
 <div align="center">
   Built with React.js and SCSS.
 </div>
+<div align="center">
+  Contains my projects and ways to contact me.
+</div>
 
 ###
 
