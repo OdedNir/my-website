@@ -11,5 +11,5 @@
 ###
 
 <div align="center">
-  <img alt="screen-shot" src="./public/media/screen-shot1.png" width="768" height="432" />
+  <img alt="screen-shot" src="./public/media/screen-shot1.png" width="640" height="400" />
 </div>
